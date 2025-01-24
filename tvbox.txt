@@ -30,7 +30,7 @@
     "ext" : "eyJhcGkiOiJodHRwczovLzEwMS4xMzIuMTc3LjE0Njo0NTY3IiwidG9rZW4iOiIifQ==",
     "filterable" : 1,
     "quickSearch" : 1,
-    "name" : "丫仙女上海",
+    "name" : "丫仙女",
     "changeable" : 0,
     "jar" : "https://101.132.177.146:4567/spring.jar",
     "api" : "csp_XiaoYa",
