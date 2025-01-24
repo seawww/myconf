@@ -1,36 +1,59 @@
 {
   "wallpaper" : "https://深色壁纸.xxooo.cf/",
   "lives" : [ {
-    "name" : "牛播一（新版影视仓/ok影视）",
+    "name" : "IPV4若卡顿切换IPV6",
     "type" : 0,
-    "url" : "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
+    "url" : "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt",
     "playerType" : 1,
-    "epg" : "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-    "logo" : "https://epg.iill.top/logo/{name}.png"
-  }, {
-    "name" : "IPV4",
-    "type" : 0,
-    "url" : "https://raw.gitmirror.com/MemoryCollection/IPTV/refs/heads/main/multicast.txt",
-    "playerType" : 1,
-    "logo" : "https://raw.gitmirror.com/fanmingming/live/refs/heads/main/tv/{name}.png"
+    "logo" : "https://live.fanmingming.com/tv/{name}.png"
   }, {
     "name" : "IPV6①",
     "type" : 0,
-    "url" : "https://ghproxy.cn/http://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u",
+    "url" : "https://ghp.ci/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
     "playerType" : 1
+  }, {
+    "name" : "IPV6②",
+    "type" : 0,
+    "url" : "https://ghp.ci/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+    "playerType" : 1,
+    "logo" : "https://live.fanmingming.com/tv/{name}.png"
   }, {
     "name" : "平台直播",
     "type" : 0,
-    "url" : "http://tv.iill.top/m3u/Live",
+    "url" : "https://tv.iill.top/m3u/Live",
     "ua" : "okhttp/3.15",
     "playerType" : 2
   } ],
   "logo" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
   "sites" : [ {
-    "ext" : "eyJhcGkiOiJodHRwOi8vMTY2LjEwOC4yMjUuMTg6NDU2NyIsInRva2VuIjoiIn0=",
+    "ext" : "eyJhcGkiOiJodHRwOi8vMjMuOTQuMTg2LjEwMjo0NTY3IiwidG9rZW4iOiIifQ==",
     "filterable" : 1,
     "quickSearch" : 1,
     "name" : "丫仙女",
+    "changeable" : 0,
+    "jar" : "http://23.94.186.102:4567/spring.jar",
+    "api" : "csp_XiaoYa",
+    "type" : 3,
+    "key" : "csp_XiaoYa",
+    "searchable" : 1
+  }, {
+    "ext" : "eyJhcGkiOiJodHRwOi8vMjMuOTQuMTg2LjEwMjo0NTY3IiwidG9rZW4iOiIifQ==",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "name" : "AList",
+    "changeable" : 0,
+    "jar" : "http://23.94.186.102:4567/spring.jar",
+    "api" : "csp_AList",
+    "type" : 3,
+    "key" : "csp_AList",
+    "searchable" : 1
+  }, 
+
+{
+    "ext" : "eyJhcGkiOiJodHRwOi8vMTY2LjEwOC4yMjUuMTg6NDU2NyIsInRva2VuIjoiIn0=",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "name" : "丫仙女2",
     "changeable" : 0,
     "jar" : "http://166.108.225.18:4567/spring.jar",
     "api" : "csp_XiaoYa",
@@ -41,20 +64,22 @@
     "ext" : "eyJhcGkiOiJodHRwOi8vMTY2LjEwOC4yMjUuMTg6NDU2NyIsInRva2VuIjoiIn0=",
     "filterable" : 1,
     "quickSearch" : 1,
-    "name" : "AList",
+    "name" : "AList2",
     "changeable" : 0,
     "jar" : "http://166.108.225.18:4567/spring.jar",
     "api" : "csp_AList",
     "type" : 3,
     "key" : "csp_AList",
     "searchable" : 1
-  }, {
-    "ext" : "eyJhcGkiOiJodHRwOi8vMTY2LjEwOC4yMjUuMTg6NDU2NyIsInRva2VuIjoiIn0=",
+  },
+
+{
+    "ext" : "eyJhcGkiOiJodHRwOi8vMjMuOTQuMTg2LjEwMjo0NTY3IiwidG9rZW4iOiIifQ==",
     "filterable" : 1,
     "quickSearch" : 1,
     "name" : "BiliBili",
     "changeable" : 0,
-    "jar" : "http://166.108.225.18:4567/spring.jar",
+    "jar" : "http://23.94.186.102:4567/spring.jar",
     "style" : {
       "type" : "rect",
       "ratio" : 1.597
@@ -64,13 +89,13 @@
     "key" : "csp_BiliBili",
     "searchable" : 1
   }, {
-    "ext" : "eyJhcGkiOiJodHRwOi8vMTY2LjEwOC4yMjUuMTg6NDU2NyIsInRva2VuIjoiIn0=",
+    "ext" : "eyJhcGkiOiJodHRwOi8vMjMuOTQuMTg2LjEwMjo0NTY3IiwidG9rZW4iOiIifQ==",
     "filterable" : 1,
     "quickSearch" : 1,
     "playerType" : 2,
     "name" : "YouTube",
     "changeable" : 0,
-    "jar" : "http://166.108.225.18:4567/spring.jar",
+    "jar" : "http://23.94.186.102:4567/spring.jar",
     "style" : {
       "type" : "rect",
       "ratio" : 1.597
@@ -87,7 +112,7 @@
     "searchable" : 0,
     "quickSearch" : 0,
     "filterable" : 0,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "玩偶",
     "name" : "\uD83D\uDC7D玩偶哥哥┃4K弹幕",
@@ -102,7 +127,7 @@
       "siteUrl" : "https://www.wogg.net/",
       "danMu" : "弹"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "YGP",
     "name" : "\uD83D\uDE80叨观荐影┃预告片",
@@ -111,7 +136,7 @@
     "searchable" : 0,
     "quickSearch" : 0,
     "changeable" : 0,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "alllive",
     "name" : "\uD83D\uDCFD️一直播┃直播",
@@ -121,7 +146,7 @@
     "searchable" : 0,
     "quickSearch" : 0,
     "changeable" : 0,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "抠搜",
     "name" : "\uD83C\uDF44抠抠┃搜搜",
@@ -134,7 +159,7 @@
       "Cloud-drive" : "tvfan/Cloud-drive.txt",
       "from" : "4k|auto"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "UC",
     "name" : "\uD83C\uDF08优汐┃搜搜",
@@ -147,7 +172,7 @@
       "Cloud-drive" : "tvfan/Cloud-drive.txt",
       "from" : "4k|auto"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "Lib",
     "name" : "\uD83C\uDF1F立播┃秒播",
@@ -160,7 +185,7 @@
       "Cloud-drive" : "tvfan/Cloud-drive.txt",
       "from" : "4k|auto"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "文采",
     "name" : "\uD83D\uDCAE文采┃秒播",
@@ -170,7 +195,7 @@
     "searchable" : 1,
     "quickSearch" : 1,
     "changeable" : 1,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "糯米",
     "name" : "\uD83C\uDF53糯米┃秒播",
@@ -179,7 +204,7 @@
     "searchable" : 1,
     "quickSearch" : 1,
     "changeable" : 1,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "zxzj",
     "name" : "\uD83C\uDF4A在线┃秒播",
@@ -190,7 +215,7 @@
     "quickSearch" : 1,
     "changeable" : 1,
     "ext" : "https://www.zxzjhd.com/",
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "苹果",
     "name" : "\uD83C\uDF4E苹果┃不卡",
@@ -199,18 +224,7 @@
     "searchable" : 1,
     "quickSearch" : 1,
     "changeable" : 1,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
-  }, {
-    "key" : "原创",
-    "name" : "☀原创┃不卡",
-    "type" : 3,
-    "api" : "csp_YCyz",
-    "timeout" : 15,
-    "playerType" : 1,
-    "searchable" : 1,
-    "quickSearch" : 1,
-    "changeable" : 1,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "厂长",
     "name" : "\uD83D\uDCD4厂长┃不卡",
@@ -220,8 +234,8 @@
     "searchable" : 1,
     "quickSearch" : 1,
     "changeable" : 1,
-    "ext" : "https://www.czzyvideo.com/",
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "ext" : "https://www.czzy77.com/",
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "木星",
     "name" : "\uD83C\uDF1E木星┃多线",
@@ -231,7 +245,17 @@
     "quickSearch" : 1,
     "changeable" : 1,
     "ext" : "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM",
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
+  }, {
+    "key" : "速播",
+    "name" : "⏮️速播┃多线",
+    "type" : 3,
+    "api" : "csp_AppSx",
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "ext" : "FbjDcUxPqpfNr0QF4QvEpcoxb5sQXd8GDXUTvbqvx0peQcuZ7GvQ0UGD/a2mS238cHqYkiBgwCduCiYrTZJtbwdDUt/L2w/LOWADxikKl6I8Cqz6OD9lIxS2anA6ytO6",
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "热播",
     "name" : "\uD83D\uDCFA热播┃多线",
@@ -242,7 +266,7 @@
     "quickSearch" : 1,
     "changeable" : 1,
     "ext" : "AO7TcBkd8I/B5wQc4Qma+pU=",
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "南瓜",
     "name" : "\uD83C\uDF83南瓜┃多线",
@@ -252,7 +276,7 @@
     "searchable" : 1,
     "quickSearch" : 1,
     "changeable" : 1,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "萌米",
     "name" : "\uD83D\uDC40萌米┃多线",
@@ -263,7 +287,7 @@
     "quickSearch" : 1,
     "changeable" : 1,
     "ext" : "AO7TcBkd8Iifux0Y8Qze6tVlMg==",
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "欢视",
     "name" : "\uD83D\uDC53欢视┃多线",
@@ -274,17 +298,7 @@
     "quickSearch" : 1,
     "changeable" : 1,
     "ext" : "AO7TcBkd8IPB+BwH4Qma+opv",
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
-  }, {
-    "key" : "低端",
-    "name" : "⏮️低端┃外剧",
-    "type" : 3,
-    "api" : "csp_Ddrk",
-    "playerType" : "2",
-    "searchable" : 1,
-    "quickSearch" : 1,
-    "changeable" : 1,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "可可",
     "name" : "\uD83D\uDC7B可可┃多线",
@@ -294,7 +308,7 @@
     "searchable" : 1,
     "quickSearch" : 1,
     "changeable" : 1,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "贱贱",
     "name" : "\uD83D\uDC2D贱贱┃P2P",
@@ -303,9 +317,9 @@
     "quickSearch" : 1,
     "changeable" : 1,
     "playerType" : "1",
-    "api" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-    "ext" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/jp.js",
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "api" : "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
+    "ext" : "https://notabug.org/fantaiying/ext/raw/main/jp.js",
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "Auete",
     "name" : "\uD83C\uDFDD奥特┃无广",
@@ -316,7 +330,7 @@
     "quickSearch" : 1,
     "changeable" : 1,
     "ext" : "https://auete.com/",
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "新6V",
     "name" : "\uD83E\uDDF2新6V┃磁力",
@@ -326,7 +340,7 @@
     "quickSearch" : 1,
     "changeable" : 0,
     "ext" : "https://www.xb6v.com/",
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "Dm84",
     "name" : "\uD83D\uDE8C巴士┃动漫",
@@ -335,7 +349,7 @@
     "searchable" : 1,
     "quickSearch" : 1,
     "changeable" : 1,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "Ysj",
     "name" : "\uD83C\uDF80异界┃动漫",
@@ -344,7 +358,7 @@
     "searchable" : 1,
     "quickSearch" : 1,
     "changeable" : 1,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "Anime1",
     "name" : "\uD83D\uDC3E日本┃动漫",
@@ -353,7 +367,7 @@
     "searchable" : 1,
     "quickSearch" : 1,
     "changeable" : 1,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "926看球",
     "name" : "⚽926┃看球",
@@ -364,7 +378,7 @@
     "style" : {
       "type" : "list"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "88看球",
     "name" : "⚽88┃看球",
@@ -375,39 +389,39 @@
     "style" : {
       "type" : "list"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "310js",
     "name" : "⚽ 310┃看球",
     "type" : 3,
-    "api" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-    "ext" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/310直播.js",
+    "api" : "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
+    "ext" : "https://notabug.org/fantaiying/ext/raw/main/310直播.js",
     "style" : {
       "type" : "list"
     },
     "searchable" : 0,
     "quickSearch" : 0,
     "changeable" : 0,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "Jrsjs",
     "name" : "⚽ Jrs┃球迷",
     "type" : 3,
-    "api" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-    "ext" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/jrk.js",
+    "api" : "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
+    "ext" : "https://notabug.org/fantaiying/ext/raw/main/jrk.js",
     "style" : {
       "type" : "list"
     },
     "searchable" : 0,
     "quickSearch" : 0,
     "changeable" : 0,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "酷奇",
     "name" : "\uD83C\uDFA4酷奇┃MV",
     "type" : 3,
-    "api" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-    "ext" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/酷奇MV.js",
+    "api" : "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
+    "ext" : "https://notabug.org/fantaiying/ext/raw/main/酷奇MV.js",
     "style" : {
       "type" : "rect",
       "ratio" : 1.597
@@ -415,7 +429,7 @@
     "searchable" : 0,
     "quickSearch" : 0,
     "changeable" : 0,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "MTV",
     "name" : "\uD83C\uDFA7明星┃MV",
@@ -429,15 +443,15 @@
     "quickSearch" : 0,
     "changeable" : 0,
     "ext" : {
-      "json" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/MTV.json"
+      "json" : "https://notabug.org/fantaiying/ext/raw/main/MTV.json"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "虎牙直播js",
     "name" : "\uD83D\uDC2F虎牙┃直播",
     "type" : 3,
-    "api" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
-    "ext" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/huya2.js",
+    "api" : "https://notabug.org/fantaiying/ext/raw/main/drpy2.js",
+    "ext" : "https://notabug.org/fantaiying/ext/raw/main/huya2.js",
     "style" : {
       "type" : "rect",
       "ratio" : 1.755
@@ -446,13 +460,13 @@
     "searchable" : 0,
     "quickSearch" : 0,
     "changeable" : 0,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "斗鱼js",
     "name" : "\uD83D\uDC1F斗鱼┃直播",
     "type" : 3,
-    "api" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-    "ext" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js",
+    "api" : "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
+    "ext" : "https://notabug.org/fantaiying/ext/raw/main/斗鱼直播.js",
     "style" : {
       "type" : "rect",
       "ratio" : 1.755
@@ -461,13 +475,13 @@
     "searchable" : 0,
     "quickSearch" : 0,
     "changeable" : 0,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "有声小说js",
     "name" : "\uD83C\uDFA7有声┃小说",
     "type" : 3,
-    "api" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-    "ext" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/有声小说吧.js",
+    "api" : "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
+    "ext" : "https://notabug.org/fantaiying/ext/raw/main/有声小说吧.js",
     "style" : {
       "type" : "rect",
       "ratio" : 1
@@ -475,7 +489,7 @@
     "searchable" : 0,
     "quickSearch" : 0,
     "changeable" : 0,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "Aid",
     "name" : "\uD83D\uDE91急救┃教学",
@@ -488,7 +502,7 @@
       "type" : "rect",
       "ratio" : 3.8
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "PanSso",
     "name" : "\uD83D\uDC0C盘他┃三盘",
@@ -501,7 +515,7 @@
       "Cloud-drive" : "tvfan/Cloud-drive.txt",
       "from" : "4k|auto"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "YpanSo",
     "name" : "\uD83D\uDC1F盘她┃三盘",
@@ -514,20 +528,7 @@
       "Cloud-drive" : "tvfan/Cloud-drive.txt",
       "from" : "4k|auto"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
-  }, {
-    "key" : "xzso",
-    "name" : "\uD83D\uDC7B盘它┃三盘",
-    "type" : 3,
-    "api" : "csp_xzso",
-    "searchable" : 1,
-    "quickSearch" : 1,
-    "changeable" : 0,
-    "ext" : {
-      "Cloud-drive" : "tvfan/Cloud-drive.txt",
-      "from" : "4k|auto"
-    },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "米搜",
     "name" : "\uD83E\uDD8B米搜┃夸父",
@@ -540,21 +541,7 @@
       "Cloud-drive" : "tvfan/Cloud-drive.txt",
       "from" : "4k|auto"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
-  }, {
-    "key" : "夸搜",
-    "name" : "\uD83D\uDE3B夸搜┃夸父",
-    "type" : 3,
-    "api" : "csp_PanSearch",
-    "searchable" : 1,
-    "quickSearch" : 1,
-    "changeable" : 0,
-    "ext" : {
-      "pan" : "quark",
-      "Cloud-drive" : "tvfan/Cloud-drive.txt",
-      "from" : "4k|auto"
-    },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "Aliso",
     "name" : "\uD83D\uDE40盘搜┃阿狸",
@@ -567,7 +554,7 @@
       "Cloud-drive" : "tvfan/Cloud-drive.txt",
       "from" : "4k|auto"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "YiSo",
     "name" : "\uD83D\uDE39易搜┃阿狸",
@@ -580,7 +567,7 @@
       "Cloud-drive" : "tvfan/Cloud-drive.txt",
       "from" : "4k|auto"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "push_agent",
     "name" : "\uD83D\uDEF4手机┃推送",
@@ -592,7 +579,7 @@
       "Cloud-drive" : "tvfan/Cloud-drive.txt",
       "from" : "4k|auto"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "Bili",
     "name" : "\uD83C\uDD71哔哔合集┃弹幕",
@@ -606,9 +593,9 @@
     "quickSearch" : 0,
     "changeable" : 0,
     "ext" : {
-      "json" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/bilibili.json"
+      "json" : "https://notabug.org/fantaiying/ext/raw/main/bilibili.json"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "Biliych",
     "name" : "\uD83C\uDD71哔哔演唱会┃弹幕",
@@ -622,15 +609,15 @@
     "quickSearch" : 0,
     "changeable" : 0,
     "ext" : {
-      "json" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/biliych.json"
+      "json" : "https://notabug.org/fantaiying/ext/raw/main/biliych.json"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "dr_兔小贝",
     "name" : "\uD83D\uDCDA儿童┃启蒙",
     "type" : 3,
-    "api" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-    "ext" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+    "api" : "https://notabug.org/fantaiying/ext/raw/main/drpy2.min.js",
+    "ext" : "https://notabug.org/fantaiying/ext/raw/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
     "style" : {
       "type" : "rect",
       "ratio" : 1.597
@@ -638,7 +625,7 @@
     "searchable" : 0,
     "quickSearch" : 0,
     "changeable" : 0,
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "少儿教育",
     "name" : "\uD83D\uDCDA少儿┃教育",
@@ -652,9 +639,9 @@
     "quickSearch" : 0,
     "changeable" : 0,
     "ext" : {
-      "json" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/少儿教育.json"
+      "json" : "https://notabug.org/fantaiying/ext/raw/main/少儿教育.json"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "小学课堂",
     "name" : "\uD83D\uDCDA小学┃课堂",
@@ -668,9 +655,9 @@
     "quickSearch" : 0,
     "changeable" : 0,
     "ext" : {
-      "json" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/小学课堂.json"
+      "json" : "https://notabug.org/fantaiying/ext/raw/main/小学课堂.json"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "初中课堂",
     "name" : "\uD83D\uDCDA初中┃课堂",
@@ -684,9 +671,9 @@
     "quickSearch" : 0,
     "changeable" : 0,
     "ext" : {
-      "json" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/初中课堂.json"
+      "json" : "https://notabug.org/fantaiying/ext/raw/main/初中课堂.json"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   }, {
     "key" : "高中教育",
     "name" : "\uD83D\uDCDA高中┃课堂",
@@ -700,9 +687,9 @@
     "quickSearch" : 0,
     "changeable" : 0,
     "ext" : {
-      "json" : "https://raw.gitmirror.com/fantaiying7/EXT/refs/heads/main/高中课堂.json"
+      "json" : "https://notabug.org/fantaiying/ext/raw/main/高中课堂.json"
     },
-    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734602329530/fan.txt;md5;7c6dbc73b47bcff6a7744f6aecedebc2"
+    "jar" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732117452286/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8"
   } ],
-  "spider" : "http://166.108.225.18:4567/tvbox/libs/xiaoya_proxy.jar;md5;00c03fd4718bee7cb6cb2f8d8df7c3fd"
+  "spider" : "http://23.94.186.102:4567/tvbox/libs/xiaoya_proxy.jar;md5;00c03fd4718bee7cb6cb2f8d8df7c3fd"
 }
