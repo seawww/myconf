@@ -36,19 +36,7 @@
     "type" : 3,
     "key" : "csp_XiaoYa",
     "searchable" : 1
-  }, {
-    "ext" : "eyJhcGkiOiJodHRwOi8vMjMuOTQuMTg2LjEwMjo0NTY3IiwidG9rZW4iOiIifQ==",
-    "filterable" : 1,
-    "quickSearch" : 1,
-    "name" : "AList",
-    "changeable" : 0,
-    "jar" : "http://23.94.186.102:4567/spring.jar",
-    "api" : "csp_AList",
-    "type" : 3,
-    "key" : "csp_AList",
-    "searchable" : 1
-  }, 
-
+  },
 {
     "ext" : "eyJhcGkiOiJodHRwOi8vMTY2LjEwOC4yMjUuMTg6NDU2NyIsInRva2VuIjoiIn0=",
     "filterable" : 1,
@@ -60,19 +48,7 @@
     "type" : 3,
     "key" : "csp_XiaoYa2",
     "searchable" : 1
-  }, {
-    "ext" : "eyJhcGkiOiJodHRwOi8vMTY2LjEwOC4yMjUuMTg6NDU2NyIsInRva2VuIjoiIn0=",
-    "filterable" : 1,
-    "quickSearch" : 1,
-    "name" : "AList2",
-    "changeable" : 0,
-    "jar" : "http://166.108.225.18:4567/spring.jar",
-    "api" : "csp_AList",
-    "type" : 3,
-    "key" : "csp_AList2",
-    "searchable" : 1
   },
-
  {
     "ext" : "eyJhcGkiOiJodHRwOi8vMTY1LjE1NC4xOTMuMTM1OjQ1NjciLCJ0b2tlbiI6IiJ9",
     "filterable" : 1,
@@ -84,43 +60,20 @@
     "type" : 3,
     "key" : "csp_XiaoYa3",
     "searchable" : 1
-  }, {
-    "ext" : "eyJhcGkiOiJodHRwOi8vMTY1LjE1NC4xOTMuMTM1OjQ1NjciLCJ0b2tlbiI6IiJ9",
-    "filterable" : 1,
-    "quickSearch" : 1,
-    "name" : "AList3",
-    "changeable" : 0,
-    "jar" : "http://165.154.193.135:4567/spring.jar",
-    "api" : "csp_AList",
-    "type" : 3,
-    "key" : "csp_AList3",
-    "searchable" : 1
-  },
+  }, 
 
 {
-    "ext" : "eyJhcGkiOiJodHRwczovLzY0LjExMi40My4yNDk6NDU2NyIsInRva2VuIjoiIn0=",
+    "ext" : "eyJhcGkiOiJodHRwOi8vMTkyLjEzMS4xNDIuMTYxOjQ1NjciLCJ0b2tlbiI6IiJ9",
     "filterable" : 1,
     "quickSearch" : 1,
-    "name" : "丫仙女4",
+    "name" : "丫仙女香港",
     "changeable" : 0,
-    "jar" : "https://64.112.43.249:4567/spring.jar",
+    "jar" : "http://192.131.142.161:4567/spring.jar",
     "api" : "csp_XiaoYa",
     "type" : 3,
     "key" : "csp_XiaoYa4",
     "searchable" : 1
-  }, {
-    "ext" : "eyJhcGkiOiJodHRwczovLzY0LjExMi40My4yNDk6NDU2NyIsInRva2VuIjoiIn0=",
-    "filterable" : 1,
-    "quickSearch" : 1,
-    "name" : "AList4",
-    "changeable" : 0,
-    "jar" : "https://64.112.43.249:4567/spring.jar",
-    "api" : "csp_AList",
-    "type" : 3,
-    "key" : "csp_AList4",
-    "searchable" : 1
-  },
-
+  }, 
 
 {
     "ext" : "eyJhcGkiOiJodHRwOi8vMTI5LjE1OS40NS4yMzA6NDU2NyIsInRva2VuIjoiIn0=",
@@ -132,17 +85,6 @@
     "api" : "csp_XiaoYa",
     "type" : 3,
     "key" : "csp_XiaoYa5",
-    "searchable" : 1
-  }, {
-    "ext" : "eyJhcGkiOiJodHRwOi8vMTI5LjE1OS40NS4yMzA6NDU2NyIsInRva2VuIjoiIn0=",
-    "filterable" : 1,
-    "quickSearch" : 1,
-    "name" : "AList5",
-    "changeable" : 0,
-    "jar" : "http://129.159.45.230:4567/spring.jar",
-    "api" : "csp_AList",
-    "type" : 3,
-    "key" : "csp_AList5",
     "searchable" : 1
   },
 
