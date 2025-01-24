@@ -25,16 +25,30 @@
     "playerType" : 2
   } ],
   "logo" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
-  "sites" : [ {
+  "sites" : [ 
+{
+    "ext" : "eyJhcGkiOiJodHRwczovLzEwMS4xMzIuMTc3LjE0Njo0NTY3IiwidG9rZW4iOiIifQ==",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "name" : "丫仙女上海",
+    "changeable" : 0,
+    "jar" : "https://101.132.177.146:4567/spring.jar",
+    "api" : "csp_XiaoYa",
+    "type" : 3,
+    "key" : "csp_XiaoYa",
+    "searchable" : 1
+  },
+
+{
     "ext" : "eyJhcGkiOiJodHRwOi8vMjMuOTQuMTg2LjEwMjo0NTY3IiwidG9rZW4iOiIifQ==",
     "filterable" : 1,
     "quickSearch" : 1,
-    "name" : "丫仙女",
+    "name" : "丫仙女1",
     "changeable" : 0,
     "jar" : "http://23.94.186.102:4567/spring.jar",
     "api" : "csp_XiaoYa",
     "type" : 3,
-    "key" : "csp_XiaoYa",
+    "key" : "csp_XiaoYa1",
     "searchable" : 1
   },
 {
