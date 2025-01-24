@@ -58,7 +58,7 @@
     "jar" : "http://166.108.225.18:4567/spring.jar",
     "api" : "csp_XiaoYa",
     "type" : 3,
-    "key" : "csp_XiaoYa",
+    "key" : "csp_XiaoYa2",
     "searchable" : 1
   }, {
     "ext" : "eyJhcGkiOiJodHRwOi8vMTY2LjEwOC4yMjUuMTg6NDU2NyIsInRva2VuIjoiIn0=",
@@ -69,7 +69,7 @@
     "jar" : "http://166.108.225.18:4567/spring.jar",
     "api" : "csp_AList",
     "type" : 3,
-    "key" : "csp_AList",
+    "key" : "csp_AList2",
     "searchable" : 1
   },
 
