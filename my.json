@@ -16,7 +16,8 @@
           "server": "http://152.70.135.245:5678/",
           "startPage": "/",
           "search": true
-        },
+        },   
+        
         {
           "name": "每日更新",
           "server": "http://152.70.135.245:5678/",
@@ -57,6 +58,24 @@
           "server": "http://152.70.135.245:5678/",
           "startPage": "/动漫/儿童"
         }
+      ]
+    },
+
+    {
+      "key": "Alist2",
+      "name": "55555",
+      "type": 3,
+      "api": "http://24.77.108.155:5678/tvbox/libs/alist.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": [
+        {
+          "name": "llll2",
+          "server": "http://24.77.108.155:5678/",
+          "startPage": "/",
+          "search": true
+        },
       ]
     },
     {
