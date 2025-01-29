@@ -65,14 +65,14 @@
       "key": "Alist2",
       "name": "55555",
       "type": 3,
-      "api": "http://24.77.108.155:5678/tvbox/libs/alist.min.js",
+      "api": "http://118.31.33.179:5344/tvbox/libs/alist.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
       "ext": [
         {
           "name": "丫仙女",
-          "server": "http://24.77.108.155:5678/",
+          "server": "http://118.31.33.179:5344/",
           "startPage": "/",
           "search": true
         },{
