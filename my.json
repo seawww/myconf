@@ -17,7 +17,12 @@
           "startPage": "/",
           "search": true
         },   
-        
+        {
+          "name": "丫仙女4",
+          "server": "http://172.245.43.112:5678/",
+          "startPage": "/",
+          "search": true
+        },
         {
           "name": "每日更新",
           "server": "http://152.70.135.245:5678/",
@@ -71,7 +76,7 @@
       "filterable": 0,
       "ext": [
         {
-          "name": "丫仙女",
+          "name": "丫仙女2",
           "server": "http://172.245.43.112:5678/",
           "startPage": "/",
           "search": true
