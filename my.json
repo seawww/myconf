@@ -62,7 +62,7 @@
     },
 
     {
-      "key": "Alist1",
+      "key": "Alist",
       "name": "55555",
       "type": 3,
       "api": "http://172.245.43.112:4567/tvbox/libs/alist.min.js",
