@@ -3,7 +3,7 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
-      "key": "Alist2",
+      "key": "Alist",
       "name": "🌟小雅┃高清",
       "type": 3,
       "api": "http://152.70.135.245:5678/tvbox/libs/alist.min.js",
@@ -16,13 +16,7 @@
           "server": "http://152.70.135.245:5678/",
           "startPage": "/",
           "search": true
-        },   
-        {
-          "name": "丫仙女4",
-          "server": "http://172.245.43.112:5678/",
-          "startPage": "/",
-          "search": true
-        },
+        },  
         {
           "name": "每日更新",
           "server": "http://152.70.135.245:5678/",
@@ -67,7 +61,7 @@
     },
 
     {
-      "key": "Alist",
+      "key": "Alistbbb",
       "name": "55555",
       "type": 3,
       "api": "http://172.245.43.112:5678/tvbox/libs/alist.min.js",
